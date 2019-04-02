@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+##  Photo gallery - simple Spring Boot application
 
-You can use the [editor on GitHub](https://github.com/modestas612/Photo-gallery/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Running Photo gallery locally
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Photo gallery is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
+```
+git clone https://github.com/modestas612/Photo-gallery.git
+cd Photo-gallery
+./mvnw package
+java -jar target/*.jar
+```
+You can then access Photo gallery here: http://localhost:8080/
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Or you can run it directly from your IDE using the Spring Boot Maven plugin. If you do this it will pick up changes that you make in the project immediately.
+```
+Maven -> Plugins -> spring-boot -> spring-boot:run
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/modestas612/Photo-gallery/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
