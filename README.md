@@ -13,7 +13,7 @@ java -jar target/*.jar
 ```
 You can then access Photo gallery here: http://localhost:8080/
 
-### Working with Petclinic in your IDE
+### Working with Photo gallery in your IDE
 
 You can run it directly from your IDE using the Spring Boot Maven plugin. If you do this it will pick up changes that you make in the project immediately.
 ```
