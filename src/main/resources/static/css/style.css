@@ -77,3 +77,9 @@ body{
     from {transform: scale(0)}
     to {transform: scale(1)}
 }
+
+.foo-style{
+    height: auto;
+    width: 1000px;
+    background-color: transparent;
+}
