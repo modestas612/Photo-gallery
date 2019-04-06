@@ -2,6 +2,13 @@
 
 ### Database configuration
 
+For database configuration you need to change source url, username and password:
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/gallery
+spring.datasource.username=root
+spring.datasource.password=root
+```
+
 ### Running Photo gallery locally
 
 Photo gallery is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
